@@ -10,9 +10,9 @@ https://drive.google.com/file/d/11ikQ0UTjBROZ0spzhmpxjREERp-UhSD-/view?usp=shari
 
 ### 2. Instalar las Dependencias
 En tu terminal, ejecuta:
-```shell
+
 pip install -r requirements.txt
 
-### 3. Ejecutar la apliacion
+### 3. Ejecutar la aplicacion
 streamlit run app.py
 
