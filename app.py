@@ -67,6 +67,18 @@ Esta app usa un modelo de Machine Learning (LGBM) entrenado con **1.3 millones**
 históricos para predecir el riesgo de incumplimiento.
 """)
 
+# --- Dashboard de Power BI Integrado ---
+st.subheader("Dashboard de Préstamos (Power BI)")
+
+powerbi_iframe = """
+<iframe title="prestamos_dashboard" width="1000" height="600"
+src="https://app.powerbi.com/view?r=eyJrIjoiOWEzMmQwYjItYWM0NC00OGJkLTk2MzgtZTk0NDE4Y2I3YTM1IiwidCI6IjBmNzg1NDlkLTNlZWMtNDNhZi1iNTZhLTZmN2IwNDJkNmM5YSIsImMiOjR9&pageName=c89659972260d55d077d"
+frameborder="0" allowFullScreen="true"></iframe>
+"""
+
+st.components.v1.html(powerbi_iframe, height=650, scrolling=True)
+
+
 # --- 4. Barra Lateral con Inputs del Usuario (¡AHORA TODO ES INPUT!) ---
 st.sidebar.header("Datos del Solicitante")
 
